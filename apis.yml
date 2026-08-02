@@ -1,8 +1,16 @@
 aid: synchronoss
 name: Synchronoss
-description: Synchronoss is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Synchronoss Technologies is a global provider of white-label, operator-branded
+  Personal Cloud and messaging solutions for telecommunications carriers and
+  service providers. Its platform lets subscribers back up, store, manage, and
+  share photos, videos, documents, contacts, messages, and call logs, delivered
+  as a branded cloud experience for operators such as Verizon, AT&T, SoftBank,
+  and BT. Product lines include Personal Cloud, Cloud Insurance, the engageX
+  engagement suite, Advanced Messaging (RCS), and ExpenseNX financial analytics.
+  Synchronoss exposes an API and SDK framework to carrier partners rather than a
+  public self-serve developer portal, so this profile captures the company's
+  public identity, security posture, and compliance certifications.
 url: https://raw.githubusercontent.com/api-evangelist/synchronoss/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,30 @@ x-backed-by:
 - balderton-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.synchronoss.com/wp-content/uploads/2021/04/synchronoss-logo-black.svg
 tags:
 - Company
+- Cloud
+- Personal Cloud
+- Messaging
+- Telecommunications
+- White Label
+- Data Backup
+- Carrier Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +50,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://synchronoss.com/
+  url: https://www.synchronoss.com/
+- type: Blog
+  url: https://www.synchronoss.com/blog/
+- type: Support
+  url: https://www.synchronoss.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.synchronoss.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.synchronoss.com/terms-of-use/
+- type: GitHubOrganization
+  url: https://github.com/synchronoss
+- type: LLMsTxt
+  url: llms/synchronoss-llms.txt
+- type: DomainSecurity
+  url: security/synchronoss-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/synchronoss-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.synchronoss.com/cloud-security/
+- type: TrustCenter
+  url: security/synchronoss-trust-center.yml
+- type: Compliance
+  url: https://www.synchronoss.com/cloud-security/
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

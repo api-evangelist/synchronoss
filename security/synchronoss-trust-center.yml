@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://www.synchronoss.com/cloud-security/
+certifications:
+- SOC 2 Type II
+- ISO 27001
+- ISO 9001:2015
+- TRUSTe
+- Data Privacy Framework (DPF)
+- SIG Lite
+evidence:
+- source: https://www.synchronoss.com/cloud-security/
+  keywords:
+  - soc 2 type ii
+  - iso 27001
+  - iso 9001:2015
+  - truste
+  - data privacy framework
+  - sig lite
+  - penetration testing
+- source: https://www.synchronoss.com/synchronoss-achieves-soc-2-certification/
+  keywords:
+  - soc 2 certification

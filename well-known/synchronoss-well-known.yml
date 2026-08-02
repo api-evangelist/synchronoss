@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+host: https://www.synchronoss.com
+note: >-
+  No /.well-known discovery documents are published; every probed path soft-404s
+  (301 -> /page-not-found/). Recorded for auditability. No WellKnown/APICatalog
+  scoring pointer is emitted because no catalog exists.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
